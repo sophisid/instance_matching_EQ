@@ -1,0 +1,12 @@
+numpy==2.2.3
+pandas==2.2.3
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+pytz==2025.1
+six==1.17.0
+tzdata==2025.1
+rdflib==6.2.0
+SPARQLWrapper==2.0.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.23.0
+requests==2.31.0
