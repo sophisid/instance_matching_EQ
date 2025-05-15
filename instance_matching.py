@@ -13,12 +13,6 @@ from config import sparql, GEONAMES_USERNAME
 from person_match import enrich_persons,match_persons
 
 
-
-
-# ------------------ GeoNames Enrichment Functions ------------------
-userName = [GEONAMES_USERNAME]
-cache_file = "geonames_cache.json"
-
 # ------------------ Main Steps ------------------
 
 def main():
