@@ -1,0 +1,17 @@
+{
+  "historian": 5,
+  "archaeologist": 4,
+  "geographer": 4,
+  "seismologist": 5,
+  "geologist": 5,
+  "scholar": 3,
+  "scientist": 3,
+  "chronicler": 4,
+  "writer": 2,
+  "author": 2,
+  "researcher": 3,
+  "academic": 3,
+  "educator": 2,
+  "professor": 2,
+  "teacher": 1
+}
