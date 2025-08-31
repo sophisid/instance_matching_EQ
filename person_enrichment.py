@@ -91,9 +91,9 @@ def get_wikidata_enrichment_data(name, birth_date=None, death_date=None, cache_u
             
             # Increment match score for date matches
             if birth_date_match:
-                match_score += 2
+                match_score += 5
             if death_date_match:
-                match_score += 2
+                match_score += 5
             
             if match_score > best_match_score or match_score == best_match_score and len(occupations_set) > len(occupations):
                 best_match = result
@@ -141,9 +141,9 @@ def get_wikidata_enrichment_data(name, birth_date=None, death_date=None, cache_u
                     death_date_match = extract_year(result["deathDate"]["value"]) == extract_year(death_date)
                 # Increment match score for date matches
                 if birth_date_match:
-                    match_score += 2
+                    match_score += 5
                 if death_date_match:
-                    match_score += 2
+                    match_score += 5
 
                 if match_score > best_match_score or match_score == best_match_score and len(occupations_set) > len(occupations):
                     best_match = result
@@ -194,9 +194,9 @@ def get_wikidata_enrichment_data(name, birth_date=None, death_date=None, cache_u
                     if "deathDate" in result and death_date:
                         death_date_match = extract_year(result["deathDate"]["value"]) == extract_year(death_date)
                     if birth_date_match:
-                        match_score += 2
+                        match_score += 5
                     if death_date_match:
-                        match_score += 2
+                        match_score += 5
                     if match_score > best_match_score or match_score == best_match_score and len(occupations_set) > len(occupations):
                         best_match = result
                         best_match_score = match_score
