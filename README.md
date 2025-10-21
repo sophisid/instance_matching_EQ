@@ -1,3 +1,4 @@
+# Part of the paper [To Automate or not to Automate the Transcription of Ancient Earthquakes: Toward a Global Knowledge Graph about Ancient Earthquakes](https://users.ics.forth.gr/~sophisid/files/2025_IJCKG_EQA2A.pdf)
 #### **Project Overview**  
 This project focuses on **instance matching and enrichment** for entities related to **cultural heritage (CIDOC CRM)** and **seismic data (Earthquake ontology)**. It aims to:
 - **Identify duplicate instances** across different datasets.
